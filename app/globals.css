@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+     --color-bg-main: 15, 23, 41;
+     --color-bg-tech-used: 130, 141, 248;
+     --color-bg-hover-sidebar-button: 24, 27, 34;
+     --color-bg-sidebar: 5, 8, 15;
+     --color-text: 200, 202, 208;
+     --color-text-tech-used: var(--color-bg-main);
+     --color-line-separator: 33, 41, 58;
+  }
+  .qwerty{
+    --color-bg-main: 43, 55 , 61;
+     --color-bg-tech-used: 236,233,236;
+     --color-text-tech-used: var(--color-bg-main);
+     --color-bg-hover-sidebar-button: 31, 44, 2;
+     --color-bg-sidebar: 80,88,87;
+     --color-text: 245, 247, 254;
+     --color-line-separator: 33, 41, 5;
+  }
+  .alpha {
+    --color-text: 227, 252, 253;
+    --color-bg-main: 25, 36,34;
+    --color-text-tech-used: var(--color-bg-main);
+    --color-bg-sidebar: 39, 84, 77;
+    --color-bg-tech-used: 38, 231, 237;
+    --color-bg-hover-sidebar-button: 5, 64, 66;
+    --color-line-separator: 33, 41, 58;
+ }
+ .beta{
+  --color-text: 25, 16, 20;
+  --color-bg-main: 241, 233, 237;
+  --color-text-tech-used: var(--color-bg-main);
+  --color-bg-sidebar: 88, 141, 115;
+  --color-bg-hover-sidebar-button: 205, 214, 224;
+  --color-bg-tech-used: 86, 138, 112;
+  --color-line-separator: 33, 41, 58;
+ }
+ .day{
+  --color-text: 22, 9, 9;
+  --color-bg-main: 253, 253, 253;
+  --color-text-tech-used: var(--color-bg-main);
+  --color-bg-sidebar: 237, 237, 237;
+  --color-bg-hover-sidebar-button: 90, 38, 38;
+  --color-bg-tech-used: 176, 74, 74;
+  --color-line-separator: 176, 74, 74;
+ }
+}
