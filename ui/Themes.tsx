@@ -9,7 +9,7 @@ const themes = ["night", "cupcake", " "];
 const Themes = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="relative">
+    <div className="relative bg-skin-main-color px-2 py-4 lg:py-0 lg:pt-4 -top-4">
       <button
         onClick={() => setOpen((prev) => !prev)}
         className="flex gap-1 my-auto h-full"

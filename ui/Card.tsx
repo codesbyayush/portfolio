@@ -23,11 +23,11 @@ const Project = ({title, imgSrc, badges, shortDesc}: Props) => {
         <h3 className='text-lg uppercase'>{title}</h3>
         
         <p className='text-sm'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, doloribus similique, blanditiis architecto, qui ut magni laboriosam reprehenderit accusamus repellendus adipisci nemo iusto dolorem voluptate nulla vero itaque harum deserunt.
+          {shortDesc}
         </p>
         <div className='flex flex-wrap gap-4 py-4'>
         {badges.map(badge => 
-        <button className='bg-skin-tech-used rounded-md px-2 py-1 text-skin-tech-used text-base bg-opacity-100 hover:bg-opacity-80'>{badge}</button>
+        <button className='bg-skin-tech-used rounded-md px-2 py-1 text-skin-tech-used text-base bg-opacity-100 hover:bg-opacity-80' key={badge}>{badge}</button>
         )}
         </div>
       </div>

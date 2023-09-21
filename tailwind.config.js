@@ -25,6 +25,13 @@ module.exports = {
         },
       },
 
+      colors: {
+        skin: {
+          'main-color': withOpacity('--color-bg-main'),
+          'tech-used-color': withOpacity('--color-bg-tech-used'),
+        }
+      },
+
       backgroundColor: {
         skin: {
           'main-color': withOpacity('--color-bg-main'),

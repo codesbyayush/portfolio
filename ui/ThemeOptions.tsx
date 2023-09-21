@@ -13,7 +13,7 @@ const ThemeOptions = () => {
           {
               themes.map(option => (
                   <button className={`border border-black rounded-md bg-skin-sidebar-color text-skin-base px-8 py-3 ${theme === option ? 'outline -outline-offset-8 outline-black outline-4' : ''}`}
-                  onClick={() => setTheme(option)}>
+                  onClick={() => setTheme(option)} key={option}>
                       {option}
                   </button>
               ))
